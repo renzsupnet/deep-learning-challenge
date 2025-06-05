@@ -38,4 +38,4 @@ Model 3:
 - In conclusion, manually adding layers and neurons yielded minimal improvements which suggest an overfitting issue. The same can be said for using other activations like tanh. Using keras-tuner to automatically define the best layers also failed to achieve the target accuracy. Dataset might be more suitable for other machine learning models other than the keras Sequential model. 
 
 ## Other models to consider
-- Instead of using the keras Sequential() model, using the Random Forest Classifier model instead might yield better result. It follows the same concept as before: pre process data by dropping unrelated columns, scaling the data and then fitting the data with the model.
+- Instead of using the keras Sequential() model, using the Random Forest Classifier model instead may yield better results as it is known for its high accuracy. It follows the same concept as before: pre process data by dropping unrelated columns, scaling the data and then fitting the data with the model.
